@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SleepTracker</string>
+    <string name="wake">Awaken</string>
+    <string name="sleep">Sleep</string>
+    <string name="hours">%d hours</string>
+    <string name="Sleeping">Sleeping...</string>
+    <string name="youSlept">You slept...</string>
+    <string name="from">From %s \nto %s</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="inferno.sleeptracker.MainActivity">
+
+
+    <TextView
+        android:id="@+id/YouSlept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/youSlept" />
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="70dp"
+        android:text="@string/hours" />
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/from" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:text="@string/sleep"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:id="@+id/sleepButton"
+            android:onClick="sleep"/>
+
+    </LinearLayout>
+
+</LinearLayout>
